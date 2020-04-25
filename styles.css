@@ -1,7 +1,11 @@
 body {
-    font-style: inherit;
+    color : #212120;
 }
 
-.js-clock h1 {
-    color : #212120;
+.form, .greetings {
+    display: none;
+}
+
+.showing {
+    display: block;
 }
