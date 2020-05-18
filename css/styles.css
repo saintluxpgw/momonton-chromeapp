@@ -54,10 +54,12 @@ body {
     margin-top: 50px;
 }
 
+.js-form,
 .js-toDoList {
     font-family: 'Noto Sans KR', sans-serif;
 }
 
+.js-form label,
 .js-toDoForm label {
     position: absolute;
     top: 1px;
@@ -70,6 +72,7 @@ body {
     cursor: text;
 }
 
+.js-form input[type="text"],
 .js-toDoForm input[type="text"] {
     width: 200px;
     height: auto;
